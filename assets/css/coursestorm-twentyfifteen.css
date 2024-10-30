@@ -1,0 +1,144 @@
+@media screen and (min-width: 38.75em) {
+    .coursestorm-course-filters {
+        margin: 0 7.6923%;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .coursestorm-course-filters {
+        margin: 0 8.3333%;
+    }
+}
+
+.coursestorm-course-filters form input,
+.coursestorm-course-filters form select {
+    font-size: initial;
+}
+
+.coursestorm-course-filters .coursestorm_search {
+    padding: 0;
+}
+
+.coursestorm-course-filters .coursestorm_search #searchsubmit {
+    padding: 4px;
+    top: -1px;
+}
+
+/*
+* Single template
+*/
+
+.single .coursestorm-details-top {
+    padding: 0 7.6923%;
+}
+
+@media screen and (min-width: 38.75em) {
+    .single .coursestorm-details-top {
+        padding: 0 9.0909%;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .single .coursestorm-details-top {
+        padding: 0 10%;
+    }   
+}
+
+.coursestorm-map {
+    padding: 0 7.6923%;
+}
+
+@media screen and (min-width: 1168px) {
+    .coursestorm-map {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 38.75em) {
+    .coursestorm-map {
+        padding: 0 9.0909%;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .coursestorm-map {
+        padding: 0 10%;
+    }
+}
+
+.coursestorm-details-footer {
+    padding: 0 7.6923%;
+}
+
+@media screen and (min-width: 38.75em) {
+    .coursestorm-details-footer {
+        padding: 0 9.0909%;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .coursestorm-details-footer {
+        padding: 0 10%;
+    }
+}
+
+/*
+* Archive template
+*/
+.coursestorm-course-filters {
+    background: #fff;
+}
+
+@media screen and (min-width: 38.75em) {
+    .coursestorm-course-filters {
+        border-bottom: 0;
+        border-left: 7px solid #333;
+        margin-bottom: 8.3333%;
+        padding: 3.8461% 7.6923%;
+    }
+}
+
+.coursestorm-details-title {
+    max-width: 65%;
+}
+
+.coursestorm-details-title .entry-title {
+    margin-top: 0;
+}
+
+/*
+* Generic template
+*/
+@media screen and (min-width: 38.75em) {
+    .coursestorm-plugin.page-template #primary {
+        margin: 0 7.6923%;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .coursestorm-plugin.page-template #primary {
+        margin: 0 8.3333%;
+    }
+}
+
+.coursestorm-browse-categories,
+.coursestorm-featured-courses {
+    background: #fff;
+    padding: 7.6923%;
+}
+
+@media screen and (min-width: 38.75em) {
+    .coursestorm-browse-categories,
+    .coursestorm-featured-courses {
+        padding: 9.0909%;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .coursestorm-browse-categories,
+    .coursestorm-featured-courses {
+        padding: 10%;
+    }
+}

@@ -1,0 +1,78 @@
+.coursestorm-plugin.page-template #primary {
+    padding-top: 0;
+}
+
+/*
+* Single template
+*/
+
+/* .full-width .site-content .entry-content.coursestorm-course-description {
+    padding: 0;
+} */
+
+.single .coursestorm-details-top {
+    padding: 12px 10px 0;
+}
+
+@media screen and (min-width: 673px) {
+    .single .coursestorm-details-top {
+        padding-left: 30px;
+        padding-right: 30px;
+    } 
+}
+
+.single .entry-content {
+    padding: 12px 10px 0;
+}
+
+@media screen and (min-width: 673px) {
+    .single .entry-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    } 
+}
+
+.coursestorm-map {
+    clear: both;
+    float: none;
+    padding: 12px 10px 0;
+}
+
+@media screen and (min-width: 673px) {
+    .coursestorm-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.coursestorm-details-footer {
+    padding: 12px 10px 0;
+}
+
+@media screen and (min-width: 673px) {
+    .coursestorm-details-footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/*
+* Archive template
+*/
+
+/*
+* Generic template
+*/
+#content > .tfwc {
+    margin: 0 auto;
+    max-width: 474px;
+}
+
+@media screen and (min-width: 768px) {
+    .coursestorm-browse-categories > ul > li {
+        max-width: 50%;
+    }
+    .coursestorm-browse-categories > ul > li:nth-child(3n+1) {
+        clear: none;
+    }
+}

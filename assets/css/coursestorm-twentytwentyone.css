@@ -1,0 +1,221 @@
+/** 
+* General
+*/
+.page-header {
+    margin-bottom: 1rem;
+}
+
+/**
+* Archive
+*/
+
+article.coursestorm-course-archive {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.search .coursestorm_class .coursestorm-registration-status,
+.coursestorm-course-archive .coursestorm-registration-status {
+    float: none;
+}
+
+@media (min-width: 1168px) {
+    .search .coursestorm_class .entry-content > .coursestorm-registration-status,
+    .coursestorm-course-archive.coursestorm_class .entry-content > .coursestorm-registration-status {
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 640px) {
+    .search .coursestorm_class .coursestorm-course-image,
+    .coursestorm-course-archive .coursestorm-course-image {
+        max-width: 30%;
+        padding: 0 1.5rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .search .coursestorm_class .coursestorm-course-info,
+    .coursestorm-course-archive > .entry-content > .coursestorm-course-info:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce) {
+        float: right;
+        margin-top: 0;
+        max-width: 70%;
+        padding: 0 1.5rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .search .coursestorm_class .coursestorm-registration-status,
+    .coursestorm-course-archive .coursestorm-registration-status:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce) {
+        float: left;
+        width: 100%;
+        margin: 0 1.5rem;
+        max-width: 30%;
+        max-width: calc(30% - 3rem);
+    }
+}
+
+/**
+* Single
+*/
+.site .coursestorm-course-session button,
+.site .coursestorm-course-session button:hover,
+.site .coursestorm-course-session button:focus,
+.site .coursestorm-course-register button,
+.site .coursestorm-course-register button:hover,
+.site .coursestorm-course-register button:focus,
+.site a.coursestorm-action-button,
+.site a.coursestorm-action-button:hover,
+.site a.coursestorm-action-button:visited,
+.site .button.coursestorm-action-button,
+.site .entry-content a.coursestorm-action-button,
+.site .entry-content a.coursestorm-action-button:hover,
+.site .entry-content a.coursestorm-action-button:visited,
+.site .entry-content .button.coursestorm-action-button,
+.site .entry .entry-content a.coursestorm-action-button,
+.site .entry .entry-content a.coursestorm-action-button:hover,
+.site .entry .entry-content a.coursestorm-action-button:visited,
+.site .entry .entry-content .button.coursestorm-action-button {
+    background: #F2BF5F;
+    background: -webkit-linear-gradient(#F7DCA3, #F7DCA3 30%, #F2BF5F);
+    background: linear-gradient(#F7DCA3, #F7DCA3 30%, #F2BF5F);
+    border: 1px solid #ce880b;
+    border-radius: 5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #8a4b18;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    font-weight: 800;
+    padding: 4px 15px;
+    text-decoration: none !important;
+    text-shadow: rgba(255,255,255,0.5) 1px 1px 1px;
+}
+
+.coursestorm-details-top {
+    margin: 1rem 1.5rem 0;
+}
+
+@media (min-width: 1168px) {
+    .coursestorm-details-top {
+        margin: 1rem 0 0;
+    } 
+}
+
+.coursestorm-class-date {
+    padding: 0 1.5rem;
+    margin: 0;
+    max-width: 100%;
+}
+
+@media (min-width: 1168px) {
+    .coursestorm-class-date {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.coursestorm-class-date-timeframe {
+    float: left;
+}
+
+@media (min-width: 600px) {
+    .coursestorm-class-date-timeframe {
+        margin-left: 1rem;
+    }
+}
+
+/**
+* Search & filters
+*/
+#coursestorm_search_term {
+    margin: 0;
+}
+
+.coursestorm-course-filters form input[type="submit"],
+input#searchsubmit {
+    padding: 10px 20px;
+    position: relative;
+    top: 1px;
+}
+
+.coursestorm-filter-form,
+.coursestorm-course-filters form {
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0 1em 15px;
+    width: 100%;
+}
+
+@media (min-width: 656px) {
+    .coursestorm-filter-form,
+    .coursestorm-course-filters form {
+        float: right;
+        width: auto;
+    }
+}
+
+.coursestorm-course-filters {
+    margin-bottom: 0;
+}
+
+.coursestorm-filter-form select {
+    width: 100%;
+}
+
+/**
+* Calendar
+*/
+.coursestorm-calendar-date .month, .coursestorm-upcoming-classes-widget-date .month,
+.coursestorm-classes-by-category-widget-date .month {
+    font-size: 0.35em;
+}
+
+.coursestorm-calendar-date .day, .coursestorm-upcoming-classes-widget-date .day,
+.coursestorm-classes-by-category-widget-date .day {
+    font-size: 0.8em;
+    top: 1.1em;
+}
+
+/**
+* Classes by Category Widget
+*/
+.widget-white-background {
+    background-color: var(--global--color-white) !important;
+}
+.widget.coursestorm_class_by_category > ul {
+    margin-top: 40px;
+}
+.widget.coursestorm_class_by_category > ul > li:not(:last-child) {
+    margin-bottom: 40px;
+}
+.coursestorm-classes-by-category-widget-title {
+    margin-bottom: 6px;
+    font-size: var(--global--font-size-sm) !important;
+}
+div.widget.coursestorm_class_by_category h2.widgettitle {
+    font-size: 27px;
+}
+.widget-green-background div.widget.coursestorm_class_by_category h2.widgettitle {
+    font-size: var(--heading--font-size-h2);
+    font-weight:normal;
+}
+.coursestorm-classes-by-category-widget-instructor {
+    margin-bottom: 10px;
+}
+.coursestorm-classes-by-category-widget-location-name {
+    margin-top: 14px;
+}
+.coursestorm-classes-by-category-widget-location-name, .coursestorm-classes-by-category-widget-address {
+    line-height: 1.5em;
+}
+
+/**
+* View Cart button/text
+*/
+a[data-cs-widget-type="view-cart"]:not([data-cs-widget-location="false"]) #coursestorm-cart-item-count-number {
+    top: 0 !important;
+}

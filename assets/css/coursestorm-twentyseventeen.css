@@ -1,0 +1,60 @@
+@media (min-width: 1168px) {
+    .coursestorm-course-description {
+        max-width: 60%;
+    }
+}
+
+.coursestorm-calendar-date .month,
+.coursestorm-upcoming-classes-widget-date .month {
+    font-size: 0.35em;
+    top: 1.2em;
+}
+
+.coursestorm-calendar-date .day,
+.coursestorm-upcoming-classes-widget-date .day {
+    top: 0.7em;
+}
+
+.entry-content .coursestorm-course-register a,
+.entry-content .coursestorm-course-register a:hover {
+    box-shadow: none;
+}
+
+.entry-content .coursestorm-course-register a:hover {
+    color: #8a4b18;
+}
+
+.coursestorm-course-filters form input,
+.coursestorm-course-filters form select {
+    margin-bottom: 5px;
+}
+
+@media ( min-width: 670px ) {
+    .coursestorm-course-filters form input,
+    .coursestorm-course-filters form select {
+        margin-bottom: 0px;
+    } 
+}
+
+.coursestorm-course-filters .coursestorm_search {
+    padding-bottom: 0;
+}
+
+.coursestorm-course-filters .coursestorm_search input,
+.coursestorm-course-filters .coursestorm_search select {
+    float: left;
+    height: 3em;
+}
+
+@media ( min-width: 670px ) {
+    .coursestorm-course-filters .coursestorm_search input,
+    .coursestorm-course-filters .coursestorm_search select {
+        margin-left: 15px;
+    }
+}
+
+.coursestorm-course-filters .coursestorm_search #searchsubmit {
+    height: auto;
+    padding: 1.2em 2em;
+    top: auto;
+}

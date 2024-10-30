@@ -1,0 +1,54 @@
+.archive .page-header,
+.search .page-header {
+    margin-bottom: 0;
+}
+
+.coursestorm-plugin.page #main > [class*="coursestorm-"] {
+    margin: 1rem calc(10% + 60px);
+}
+
+.coursestorm-plugin.single #main {
+    margin: 1rem calc(10% + 60px);
+}
+
+/* Filter dropdowns */
+.coursestorm-course-filters {
+    margin: 20px;
+}
+
+@media ( min-width: 768px ) {
+    .coursestorm-course-filters {
+    margin: 1rem calc(10% + 60px);
+    }
+}
+
+.entry-content > .coursestorm-course-info {
+    margin-top: 0;
+}
+
+.coursestorm-course-register {
+    margin-top: 50px;
+}
+
+.coursestorm-plugin.single #main .entry-content {
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+@media( min-width: 801px ) {
+    .search .coursestorm_class .coursestorm-course-info,
+    .coursestorm-course-archive .coursestorm-course-info {
+        float: none;
+        max-width: 100%;
+    }
+}
+
+@media( min-width: 1168px ) {
+    .search .coursestorm_class .coursestorm-course-info,
+    .coursestorm-course-archive .coursestorm-course-info {
+        float: right;
+        max-width: 70%;
+    }
+}

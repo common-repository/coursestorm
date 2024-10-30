@@ -1,0 +1,27 @@
+#content {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 30px;
+    width: 100%;
+}
+/*
+* Single template
+*/
+
+.singular .entry-content {
+    width: 100%;
+}
+
+@media (min-width: 967px) {
+    .singular .entry-content {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media (min-width: 967px) {
+    .coursestorm-map {
+        float: right;
+    }
+}

@@ -1,0 +1,8 @@
+/*
+* Single template
+*/
+@media (min-width: 1168px) {
+    .coursestorm-course-description {
+        max-width: 60%;
+    }
+}

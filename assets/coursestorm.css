@@ -1,0 +1,899 @@
+.hidden, .cs-hidden {display: none;}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.coursestorm-plugin [class^="icon-"].positioned,
+.coursestorm-plugin [class*=" icon-"].positioned {
+  margin-left: 40px;
+  position: relative;
+}
+
+.coursestorm-plugin [class^="icon-"].positioned:before,
+.coursestorm-plugin [class*=" icon-"].positioned:before {
+  color: rgb(89, 89, 89);
+  left: -40px;
+  position: absolute;
+  top: 5px;
+}
+
+/* Clearfix */
+.coursestorm-details-top:after,
+.coursestorm-details-footer:after,
+.coursestorm-browse-categories:after,
+.coursestorm-course-archive:after,
+.coursestorm-course-filters:after,
+.coursestorm-browse-categories > ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Filter dropdowns */
+.coursestorm-course-filters {
+  margin-bottom: 2em;
+}
+
+.coursestorm-filter-submit {
+  display: none;
+}
+
+.coursestorm-filter-form {
+  display: inline-block;
+  float: right;
+  margin: 0 0 2em 15px;
+}
+
+.coursestorm-course-filters form {
+  width: 100%;
+  margin: 0;
+}
+
+@media ( min-width: 656px ) {
+  .coursestorm-course-filters form {
+    width: auto;
+    margin: 0 0 2em 15px;
+  }
+}
+
+.coursestorm-course-filters form input,
+.coursestorm-course-filters form select {
+  width: 100%;
+}
+
+.coursestorm-course-filters form select {
+  background: none;
+}
+
+@media ( min-width: 656px ) {
+  .coursestorm-course-filters form input,
+  .coursestorm-course-filters form select {
+    width: auto;
+  }
+}
+
+.coursestorm-course-filters .coursestorm_search {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.coursestorm-course-filters .coursestorm_search form {
+  float: right;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.coursestorm-course-filters .coursestorm_search h2 {
+  display: none;
+}
+
+.coursestorm-course-filters .coursestorm_search #coursestorm_search_term,
+.coursestorm-course-filters .coursestorm_search #coursestorm_search_location {
+  padding: 0 5px;
+  line-height: 1.45;
+}
+
+.coursestorm-course-filters .coursestorm_search + * {
+  clear: both;
+} 
+
+.coursestorm-course-filters .coursestorm_search #searchsubmit {
+  padding: 5px;
+  position: relative;
+  top: 1px;
+  vertical-align: unset;
+}
+
+/* Course details */
+.coursestorm-details-top {
+  margin-bottom: 1em;
+}
+
+.coursestorm-course-description > p:first-child {
+  margin-top: 0;
+}
+
+@media( min-width: 1168px ) {
+  .coursestorm-course-description.has-location {
+    float: left;
+    max-width: 60%;
+  }
+}
+
+.coursestorm-details-title {
+  float: left;
+  width: 75%;
+}
+
+.coursestorm-details-title h1 {
+  margin-bottom: 0;
+}
+
+.coursestorm-course-title  {
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+
+.coursestorm-details-top .coursestorm-instructor {
+ margin: 8px 0;
+}
+
+.coursestorm-details-date {
+  clear: both;
+}
+
+.coursestorm-class-date {
+  clear: both;
+  width: 100%;
+}
+
+@media ( min-width: 600px ) {
+  .coursestorm-class-date {
+    clear: none;
+    float: left;
+    margin-left: 15px;
+    margin-top: 6px;
+    max-width: 70%;
+  }
+}
+
+.coursestorm-course-register {
+  float: right;
+  text-align: right;
+}
+
+.coursestorm-course-session {
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  padding: 1em 0;
+  position: relative;
+}
+
+.coursestorm-course-register .coursestorm-course-price,
+.coursestorm-course-session .coursestorm-course-price {
+  margin-bottom: 0;
+}
+
+.coursestorm-course-register .registration-status,
+.coursestorm-course-session .registration-status {
+  clear: both;
+  color: #ad0000;
+}
+
+.coursestorm-course-session .registration-status {
+  clear: both;
+  margin-top: 4px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .coursestorm-course-session .registration-status {
+    clear: none;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .coursestorm-course-session .coursestorm-action-button + .registration-status {
+    clear: right;
+  }
+}
+
+.coursestorm-course-session:last-child {
+  border-bottom: 0;
+}
+
+.coursestorm-course-session .coursestorm-date-info {
+  float: left;
+  line-height: 1.6;
+  margin: 6px 0 0 16px;
+}
+
+.coursestorm-course-session .coursestorm-session-time {
+  display: block;
+  font-size: 0.9em;
+}
+
+.coursestorm-course-session form {
+  float: right;
+}
+
+.coursestorm-course-session button,
+.coursestorm-course-session button:hover,
+.coursestorm-course-session button:focus,
+.coursestorm-course-register button,
+.coursestorm-course-register button:hover,
+.coursestorm-course-register button:focus, 
+a.coursestorm-action-button,
+a.coursestorm-action-button:hover,
+a.coursestorm-action-button:visited,
+.button.coursestorm-action-button,
+.entry-content a.coursestorm-action-button,
+.entry-content a.coursestorm-action-button:hover,
+.entry-content a.coursestorm-action-button:visited,
+.entry-content .button.coursestorm-action-button,
+.entry .entry-content a.coursestorm-action-button,
+.entry .entry-content a.coursestorm-action-button:hover,
+.entry .entry-content a.coursestorm-action-button:visited,
+.entry .entry-content .button.coursestorm-action-button
+{
+  background: #F2BF5F;
+  background: -webkit-linear-gradient(#F7DCA3, #F7DCA3 30%, #F2BF5F);
+  background: linear-gradient(#F7DCA3, #F7DCA3 30%, #F2BF5F);
+  border: 1px solid #ce880b;
+  border-radius: 5px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #8a4b18;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 0.875em;
+  font-weight: 800;
+  padding: 4px 15px;
+  text-decoration: none;
+  text-shadow: rgba(255,255,255,0.5) 1px 1px 1px;
+}
+
+
+a.coursestorm-action-button:active,
+a.coursestorm-action-button:focus,
+.button.coursestorm-action-button:active,
+.button.coursestorm-action-button:focus,
+.button.coursestorm-action-button:hover,
+.entry-content a.coursestorm-action-button:active,
+.entry-content a.coursestorm-action-button:focus,
+.entry-content .button.coursestorm-action-button:active,
+.entry-content .button.coursestorm-action-button:focus,
+.entry-content .button.coursestorm-action-button:hover,
+.entry .entry-content a.coursestorm-action-button:active,
+.entry .entry-content a.coursestorm-action-button:focus,
+.entry .entry-content .button.coursestorm-action-button:active,
+.entry .entry-content .button.coursestorm-action-button:focus,
+.entry .entry-content .button.coursestorm-action-button:hover
+{
+  background: #F2BF5F;
+  border: 1px solid #9e6638;
+  box-shadow: rgba(255,255,255,0.9) 0 0 2px, rgba(0,0,0,0.5) 0 0 5px 0 inset;
+}
+
+.coursestorm-course-session .coursestorm-action-button {
+  float: none;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .coursestorm-course-session .coursestorm-action-button {
+    clear: none;
+    float: right;
+    margin-top: 4px;
+  }
+}
+
+.coursestorm-action-button {
+  clear: both;
+  display: block;
+  float: right;
+}
+
+.coursestorm-course-session button:active,
+.coursestorm-course-register button:active {
+  background: #F2BF5F;
+  border: 1px solid #9e6638;
+  box-shadow: rgba(255,255,255,0.9) 0 0 2px, rgba(0,0,0,0.5) 0 0 5px 0 inset;
+}
+
+.coursestorm-course-price {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  float: left;
+  font-weight: bold;
+  font-size: 1.4em;
+  width: 100%;
+}
+
+.coursestorm-no-price {
+  font-size: 0.6em;
+  font-weight: normal;
+  color: rgb(66, 66, 66);
+}
+
+.coursestorm-course-image {
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.coursestorm-course-image.icon-book {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3e7ea+0,c4c4c4+100 */
+  background: #e3e7ea; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 20%, #c4c4c4 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 20%,#c4c4c4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #ffffff 20%,#c4c4c4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e7ea', endColorstr='#c4c4c4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  min-height: 225px;
+  position: relative;
+  text-align: center;
+}
+
+.coursestorm-course-image.icon-book::before {
+  color: rgba( 0, 0, 0, .15 );
+  font-size: 3em;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.coursestorm-course-single-image {
+  display: block;
+  min-width: 100%;
+  min-height: 375px;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 0 auto 1em;
+}
+
+.coursestorm-details-footer {
+  margin-bottom: 1em;
+}
+
+.coursestorm-details-footer .icon-calendar-empty {
+  float: left;
+  font-size: 300%;
+  line-height: 1px;
+  margin-right: 15px;
+}
+
+.coursestorm-map {
+  margin: 1em 0;
+  position: relative;
+}
+
+@media( min-width: 1168px ) {
+  .coursestorm-map {
+    float: right;
+    margin-top: 0;
+  }
+}
+
+.coursestorm-calendar-date {
+  clear: both;
+}
+
+
+
+.coursestorm-date-info,
+.coursestorm-time-info {
+  margin: 0;
+  line-height: 1.8;
+}
+
+@media( min-width: 1168px ) {
+  .coursestorm-details-footer + .coursestorm-map {
+    clear: both;
+    margin-top: 3em;
+  }
+}
+
+.coursestorm-details-footer {
+  clear: both;
+  margin-top: 0;
+}
+
+.coursestorm-location-details {
+  box-sizing: border-box;
+  top: 0; left: 1em;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(251,253,248,0.9);
+  border: 1px solid #dadada;
+  padding: 1.5em;
+  font-size: 0.875em;
+}
+
+@media (min-width: 1168px) {
+  .coursestorm-location-details {
+    max-width: 300px;
+  }
+}
+
+.coursestorm-location-details > h4 {
+  margin-bottom: 0;
+}
+
+.coursestorm-location-details > * {
+  margin-bottom: 16px;
+  margin-left: 40px;
+}
+
+.coursestorm-location-details > *:before {
+  padding-right: 1.5rem;
+}
+
+.coursestorm-location-details h4:before {
+  content: "\e801";
+  font-size: 34px;
+  top: -4px;
+}
+
+.coursestorm-location-details address {
+  margin: 0;
+  margin-top: 16px;
+}
+
+.coursestorm-location-details address + div > address {
+  margin-top: 0;
+}
+
+.coursestorm-location-details address:before {
+  font-size: 27px;
+  top: 21px;
+}
+
+.coursestorm-location-details .coursestorm-location-phone {
+  padding-left: 40px;
+  display: block;
+}
+
+.coursestorm-location-details a {
+  text-decoration: underline;
+}
+
+.coursestorm-location-room:before {
+  font-size: 27px;
+  top: 2px;
+}
+
+#map {
+  width: 100%;
+  min-height: 300px;
+}
+
+/* Archive template changes */
+
+.coursestorm-course-archive {
+  clear: both;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+}
+
+.coursestorm-course-archive:last-of-type {
+  border-bottom: 0;
+}
+
+.search .coursestorm_class .coursestorm-course-image,
+.coursestorm-course-archive .coursestorm-course-image {
+  width: 100%;
+}
+
+@media( min-width: 641px ) {
+  .search .coursestorm_class .coursestorm-course-image,
+  .coursestorm-course-archive .coursestorm-course-image {
+    float: left;
+    max-width: 25%;
+  }
+}
+
+@media( min-width: 801px ) {
+  .search .coursestorm_class .coursestorm-course-info,
+  .coursestorm-course-archive .coursestorm-course-info {
+    float: right;
+    max-width: 70%;
+  }
+}
+
+.search .coursestorm_class .coursestorm-details-footer,
+.search .coursestorm_class .coursestorm-details-top,
+.coursestorm-course-archive .coursestorm-details-footer,
+.coursestorm-course-archive .coursestorm-details-top {
+  clear: both;
+}
+
+.search .coursestorm_class .coursestorm-details-top,
+.coursestorm-course-archive .coursestorm-details-top {
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.search .coursestorm_class .coursestorm-registration-status,
+.coursestorm-course-archive .coursestorm-registration-status {
+  border: 1px solid rgba( 0, 0, 0, .2 );
+  clear: left;
+  float: left;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+@media( min-width: 1168px ) {
+  .search .coursestorm_class .entry-content > .coursestorm-registration-status,
+  .coursestorm-course-archive.coursestorm_class .entry-content > .coursestorm-registration-status {
+    max-width: 25%;
+  }
+}
+
+/* Featured courses slideshow */
+
+.coursestorm-featured-courses-slider {
+  margin-bottom: 3em;
+  z-index: 1;
+}
+
+.coursestorm-featured-courses > h2 {
+  display: none;
+}
+
+.coursestorm-featured-courses-slider,
+.coursestorm-single-slide {
+  width: 100%;
+  max-height: 400px;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.coursestorm-single-slide {
+  -webkit-background-size: cover;
+  background-size: cover;
+
+}
+
+.coursestorm-slide-description {
+  color: #fff;
+  padding: 1em;
+  padding-top: 3em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.8) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,0.8) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,0.8) 100%);
+}
+
+.coursestorm-slide-description h3 {
+  margin-bottom: 0;
+}
+
+.coursestorm-slide-description a,
+.coursestorm-slide-description a:visited {
+  color: #fff;
+}
+
+.coursestorm-slide-description a:hover,
+.coursestorm-slide-description a:focus,
+.coursestorm-slide-description a:active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.coursestorm-slide-description .coursestorm-instructor {
+  float: none;
+}
+
+.coursestorm-slide-description p {
+  margin: 0;
+}
+
+.cycle-pager {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.cycle-pager span {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cycle-pager span:last-child {
+  margin-right: 0;
+}
+
+.cycle-pager span.cycle-pager-active,
+.cycle-pager span:hover {
+  background: #444;
+}
+
+/* Browse categories shortcode */
+
+.coursestorm-browse-categories {
+	margin: 0 auto;
+}
+
+#content .coursestorm-browse-categories.no-categories {
+  text-align: center;
+}
+
+.coursestorm-browse-categories h2 {
+	text-align: center;
+}
+
+.coursestorm-browse-categories ul:not(.children) {
+  list-style: none;
+}
+
+.coursestorm-browse-categories > ul {
+  margin: 0 -1em;
+  padding-left: 0;
+}
+
+.coursestorm-browse-categories > ul > li {
+  float: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 2em;
+  padding: 0 1em;
+  width: 100%;
+}
+
+.coursestorm-browse-categories > ul > li:nth-child(3n+1) {
+  clear: both;
+}
+
+.coursestorm-browse-categories ul.children > li {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.coursestorm-classes-link {
+  clear: both;
+  margin: 1em auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .coursestorm-browse-categories > ul > li {
+    width: 50%;
+    margin-bottom: 1em;
+  }
+
+  .coursestorm-browse-categories > ul > li:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .coursestorm-browse-categories > ul > li {
+    max-width: 33.3336%;
+  }
+  .coursestorm-browse-categories > ul > li:nth-child(2n+1) {
+    clear: none;
+  }
+  .coursestorm-browse-categories > ul > li:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+/* CourseStorm widgets */
+
+.coursestorm_class_by_category li {
+  clear: both;
+}
+
+.coursestorm_class_by_category .coursestorm-class-date {
+  display: block;
+  font-size: 0.85em;
+}
+
+/**
+Upcoming Classes Widget,
+Classes by category widget, &&
+Single template calendar styling
+*/
+.widget.coursestorm_class_by_category li {
+  overflow: hidden;
+}
+
+.coursestorm-upcoming-classes-widget-list-item,
+.coursestorm-classes-by-category-widget-list-item
+{
+  clear: both;
+  list-style: none;
+}
+
+.coursestorm-calendar-date,
+.coursestorm-upcoming-classes-widget-date,
+.coursestorm-classes-by-category-widget-date
+{
+  float: left;
+  font-size: 2rem;
+  position: relative;
+}
+
+.coursestorm-calendar-date.icon-calendar:before,
+.coursestorm-upcoming-classes-widget-date.icon-calendar:before,
+.coursestorm-classes-by-category-widget-date.icon-calendar:before
+{
+  font-size: 2em;
+  margin: 0;
+}
+
+.coursestorm-calendar-date .calendar,
+.coursestorm-upcoming-classes-widget-date .calendar,
+.coursestorm-classes-by-category-widget-date .calendar
+{
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  line-height: 1;
+}
+
+.coursestorm-calendar-date .month,
+.coursestorm-upcoming-classes-widget-date .month,
+.coursestorm-classes-by-category-widget-date .month {
+  background: rgb(34, 34, 34);
+  color: white;
+  font-size: 0.4em;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  top: 1.3em;
+  z-index: 1;
+}
+
+.coursestorm-calendar-date .day,
+.coursestorm-upcoming-classes-widget-date .day,
+.coursestorm-classes-by-category-widget-date .day
+{
+  font-size: 0.9em;
+  position: absolute;
+  top: 0.85em;
+}
+
+.coursestorm-upcoming-classes-widget-content,
+.coursestorm-classes-by-category-widget-content
+{
+  box-sizing: border-box;
+  float: left;
+  max-width: 70%;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.coursestorm-upcoming-classes-widget-content.no-date,
+.coursestorm-classes-by-category-widget-content.no-date {
+  max-width: 100%;
+}
+
+.coursestorm-upcoming-classes-widget-image a,
+.coursestorm-classes-by-category-widget-image a
+{
+  display: block;
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.coursestorm-upcoming-classes-widget-image a img,
+.coursestorm-classes-by-category-widget-image a img {
+  position: absolute;
+  top: 0;
+}
+
+.coursestorm-upcoming-classes-widget-title,
+.coursestorm-classes-by-category-widget-title
+{
+  margin-top: 12px;
+}
+
+/**
+ * Search
+ */
+.search .coursestorm_class {
+  position: relative;
+}
+
+.search .coursestorm_class .entry-header {
+  display: none;
+}
+
+@media ( min-width: 768px ) {
+  .search .coursestorm_class .entry-header {
+    padding-right: 100px;
+  }
+}
+
+@media ( min-width: 768px ) {
+  .search .coursestorm_class .coursestorm-course-register {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.search .coursestorm_class .coursestorm-course-description {
+  max-width: 100%;
+}
+
+/**
+ * Validation
+ */
+.coursestorm-validation-highlight input {
+  border-color: rgba(255,0,0,1) !important;
+}
+
+label.coursestorm-validation-highlight {
+  position: relative;
+}
+
+.coursestorm-validation-error {
+  background: rgba(0,0,0,1);
+  border-radius: 5px;
+  color: white;
+  font-size: 80%;
+  margin-top: 3px;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+@media (min-width: 656px){
+  .coursestorm-validation-error {
+    left: 50%;
+    min-width: 350px;
+    position: absolute;
+    transform: translate(-50%);
+  }  
+}
+
+.coursestorm-validation-error:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-bottom-color: rgba(0, 0, 0, 1);
+	border-width: 5px;
+	margin-left: -5px;
+}
+
+/** 
+* View Cart button text
+*/
+a[data-cs-widget-type="view-cart"]:not([data-cs-widget-location="false"]) {
+  overflow: visible !important;
+  padding-left: 0px !important;
+  z-index: 2;
+}
+
+a[data-cs-widget-type="view-cart"][data-cs-widget-location*="right"] {
+  margin-right: 15px !important;
+}
+
+a[data-cs-widget-type="view-cart"][data-cs-widget-location="false"] > .view-cart-text {
+  display: inline !important;
+}

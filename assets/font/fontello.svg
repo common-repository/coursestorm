@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="direction" unicode="&#xe800;" d="M848 768q8-8 11-16t-2-22-10-26-19-39-24-49q-54-112-147-286t-157-292l-66-118-54 380-380 56q442 246 696 368 20 10 48 25t39 20 25 9 23 1 17-11z m-92-96l-304-280 28-234z" horiz-adv-x="860" />
+
+<glyph glyph-name="location" unicode="&#xe801;" d="M250 750q104 0 177-73t73-177q0-106-62-243t-126-223l-62-84q-10 12-27 35t-60 89-76 130-60 147-27 149q0 104 73 177t177 73z m0-388q56 0 96 40t40 96-40 95-96 39-95-39-39-95 39-96 95-40z" horiz-adv-x="500" />
+
+<glyph glyph-name="user" unicode="&#xe802;" d="M736 128q204-72 204-122l0-106-940 0 0 106q0 50 204 122 94 34 128 69t34 95q0 22-22 49t-32 73q-2 12-9 18t-14 8-14 17-9 43q0 16 5 26t9 12l4 4q-8 50-12 88-4 54 41 112t157 58 158-58 40-112l-12-88q18-8 18-42-2-28-9-43t-14-17-14-8-9-18q-8-48-31-74t-23-48q0-60 35-95t127-69z" horiz-adv-x="940" />
+
+<glyph glyph-name="phone" unicode="&#xe803;" d="M461 290q162 162 118 206l-8 8q-30 30-41 48t-4 54 49 88q20 24 37 39t35 16 30 1 29-13 24-18 26-25 21-22q48-48-6-194t-204-294q-150-150-295-205t-193-7q-2 2-23 22t-25 25-18 24-13 31 2 30 15 35 38 37q42 34 70 47t54 2 35-18 39-37q44-44 208 120z" horiz-adv-x="800" />
+
+<glyph glyph-name="calendar" unicode="&#xe804;" d="M800 700q42 0 71-29t29-71l0-600q0-40-29-70t-71-30l-700 0q-40 0-70 30t-30 70l0 600q0 42 30 71t70 29l46 0 0-100 160 0 0 100 290 0 0-100 160 0 0 100 44 0z m0-700l0 400-700 0 0-400 700 0z m-540 800l0-170-70 0 0 170 70 0z m450 0l0-170-70 0 0 170 70 0z" horiz-adv-x="900" />
+
+<glyph glyph-name="home" unicode="&#xe805;" d="M888 336q16-16 11-27t-27-11l-84 0 0-310q0-14-1-21t-8-13-23-6l-204 0 0 310-204 0 0-310-194 0q-28 0-35 10t-7 30l0 310-84 0q-22 0-27 11t11 27l400 402q16 16 38 16t38-16z" horiz-adv-x="900" />
+
+<glyph glyph-name="book" unicode="&#xe806;" d="M682 594q18-8 18-28l0-562q0-14-12-25t-28-11q-46 0-46 36l0 522q0 12-12 18l-404 216q-32 10-68-10-44-20-56-44l408-228q18-8 18-28l0-550q0-22-18-28-6-4-16-4-14 0-20 4-8 6-202 127t-212 131q-26 18-26 34l-6 524q0 28 14 52 28 46 102 77t116 9z" horiz-adv-x="700" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,121 @@
+#coursestorm-manage-site {
+    padding-right: 7px;
+}
+
+#coursestorm-manage-site .dashicons-external:before {
+    display: block;
+    font-size: .8em;
+    margin-top: 5px;
+}
+
+.welcome {
+    margin: 0 auto;
+    margin-top: 5rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+.welcome .buttons .button {
+    color: #fff;
+    font-size: 1.5rem;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem 2rem;
+}
+
+.welcome .settings-form {
+    display: none;
+}
+
+.welcome .settings-form > * {
+    display: none;
+}
+
+.welcome .settings-form h2:first-child,
+.welcome .settings-form .submit
+{
+    display: initial;
+}
+
+.welcome .settings-form input + .form-table {
+    display: table;
+}
+
+.welcome .settings-form th,
+.welcome .settings-form td
+{
+    display: block;
+    padding: 0;
+}
+
+.welcome .settings-form th {
+    display: none;
+}
+
+.welcome .settings-form .submit {
+    margin-top: 0;
+    text-align: center;
+}
+
+.buttons .button.primary {
+    background: #2b60b0;
+    border-color: #214986;
+    box-shadow: 0 1px 0 #214986;
+}
+
+.buttons .button.secondary {
+    background: #ffaa24;
+    border-color: #da921e;
+    box-shadow: 0 1px 0 #da921e;
+}
+
+#poststuff #post-body-content .postbox > h2 {
+    border-bottom: 1px solid rgba( 0,0,0,.1 );
+    font-size: 130%;
+}
+
+#poststuff form > h2 {
+    border-bottom: 1px solid rgba( 0,0,0,.1 );
+    font-weight: 600;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#poststuff form select {
+    margin-top: 5px;
+}
+
+#poststuff form small.note {
+    display: block;
+    margin-top: 5px;
+}
+
+#submit,
+#manually-trigger-cs-sync,
+#manually-trigger-cs-settings-sync {
+    position: relative;
+}
+
+#submit + .load-spinner,
+#manually-trigger-cs-sync + .load-spinner,
+#manually-trigger-cs-settings-sync + .load-spinner {
+    display: none;
+    height: 20px;
+    padding: 0 10px;
+    position: relative;
+    top: 5px;
+    width: 20px;
+}
+
+#submit.saving + .load-spinner,
+#manually-trigger-cs-sync.saving + .load-spinner,
+#manually-trigger-cs-settings-sync.saving + .load-spinner {
+    display: inline-block;
+}
+
+#submit + .load-spinner img,
+#manually-trigger-cs-sync + .load-spinner img,
+#manually-trigger-cs-settings-sync + .load-spinner img {
+    height: auto;
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+/**
+* Classes by Category Widget
+*/
+.coursestorm_class_by_category h2 {
+    font-size: 3.2rem;
+}
+@media (min-width: 700px) {
+    .coursestorm_class_by_category h2 {
+        font-size: 4.8rem;
+    }
+}
+div.widget.coursestorm_class_by_category h2.widgettitle {
+    font-size: 3.2rem;
+}
+div.widget.coursestorm_class_by_category h2.widgettitle.editor-large-widgettitle, .editor-large-widgettitle {
+    font-size: 48px;
+}
+.coursestorm_class_by_category .widget-content h2 {
+    max-width: 58rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.coursestorm-calendar-date .day, .coursestorm-upcoming-classes-widget-date .day, .coursestorm-classes-by-category-widget-date .day {
+    font-size: 0.8em;
+    position: absolute;
+    top: 1.2em;
+}
